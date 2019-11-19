@@ -3,11 +3,12 @@ package cmd_test
 import (
 	"bytes"
 	"fmt"
-	"github.com/spf13/afero"
 	"strings"
 	"testing"
 
-	"github.com/mpppk/cli-template/cmd"
+	"github.com/spf13/afero"
+
+	"github.com/mpppk/repotable/cmd"
 )
 
 func TestSum(t *testing.T) {
@@ -15,8 +16,8 @@ func TestSum(t *testing.T) {
 		command string
 		want    string
 	}{
-		{command: "sum -- -1 2", want: "1\n"},
-		{command: "sum --norm -- -1 2", want: "3\n"},
+		{command: "run -- -1 2", want: "1\n"},
+		{command: "run --norm -- -1 2", want: "3\n"},
 	}
 
 	for _, c := range cases {
@@ -45,7 +46,7 @@ func TestSumWithOutFile(t *testing.T) {
 		command string
 		want    string
 	}{
-		{command: fmt.Sprintf("sum --out %s -- -1 2", testFilePath), want: "1"},
+		{command: fmt.Sprintf("run --out %s -- -1 2", testFilePath), want: "1"},
 	}
 
 	for _, c := range cases {
@@ -69,5 +70,3 @@ func TestSumWithOutFile(t *testing.T) {
 		}
 	}
 }
-
-

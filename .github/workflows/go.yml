@@ -12,6 +12,7 @@ jobs:
           - windows-latest
           - macOS-latest
         goversion:
+          - 1.12
           - 1.13
     steps:
 

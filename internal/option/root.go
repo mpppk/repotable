@@ -33,13 +33,13 @@ func newCmdConfigFromRawConfig(rawConfig *CmdRawConfig) *CmdConfig {
 }
 
 type CmdRawConfig struct {
-	SumCmdConfig `mapstructure:",squash"`
+	RunCmdConfig `mapstructure:",squash"`
 	Toggle       bool
 }
 
 func (c *CmdRawConfig) validate() error {
-	if err := c.SumCmdConfig.validate(); err != nil {
-		return xerrors.Errorf("invalid config parameter is given to SumCmdConfig: %w", err)
+	if err := c.RunCmdConfig.validate(); err != nil {
+		return xerrors.Errorf("invalid config parameter is given to RunCmdConfig: %w", err)
 	}
 	return nil
 }
