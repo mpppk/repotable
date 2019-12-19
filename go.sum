@@ -100,6 +100,8 @@ github.com/rhysd/go-github-selfupdate v1.1.0 h1:+aMomy69YCYxJ6kr13nYIgAJWSB1kHK5
 github.com/rhysd/go-github-selfupdate v1.1.0/go.mod h1:jbfShZ+Nl3IHUgr77kwQjObcWf1z961UAoD6p5LrPBU=
 github.com/rhysd/go-github-selfupdate v1.2.0 h1:3jivcC23qxbL5xwnf6S6oC9d/0IIjD5zQH1Kk5+y95M=
 github.com/rhysd/go-github-selfupdate v1.2.0/go.mod h1:BZHw2H9JIH7wdyda/btlRRD+sgudn1RO1NbnvY27/Ng=
+github.com/rhysd/go-github-selfupdate v1.2.1 h1:CpU7O4BcHhvcXEBsQSKD50uQ1o4/qv/15Ev6TPAtU3s=
+github.com/rhysd/go-github-selfupdate v1.2.1/go.mod h1:BZHw2H9JIH7wdyda/btlRRD+sgudn1RO1NbnvY27/Ng=
 github.com/rogpeppe/fastuuid v0.0.0-20150106093220-6724a57986af/go.mod h1:XWv6SoW27p1b0cqNHllgS5HIMJraePCO15w5zCzIWYg=
 github.com/russross/blackfriday v1.5.2/go.mod h1:JO/DiYxRf+HjHt06OyowR9PTA263kcR/rfWxYHBV53g=
 github.com/sirupsen/logrus v1.2.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=
@@ -197,6 +199,7 @@ gopkg.in/alecthomas/kingpin.v2 v2.2.6/go.mod h1:FMv+mEhP44yOT+4EoQTLFTRgOQ1FBLks
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/fsnotify.v1 v1.4.7/go.mod h1:Tz8NjZHkW78fSQdbUxIjBTcgA1z1m8ZHf0WmKUhAMys=
+gopkg.in/ini.v1 v1.51.0 h1:AQvPpx3LzTDM0AjnIRlVFwFFGC+npRopjZxLJj6gdno=
 gopkg.in/ini.v1 v1.51.0/go.mod h1:pNLf8WUiyNEtQjuu5G5vTm06TEv9tsIgeAvK8hOrP4k=
 gopkg.in/resty.v1 v1.12.0/go.mod h1:mDo4pnntr5jdWRML875a/NmxYqAlA73dVijT2AXvQQo=
 gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7/go.mod h1:dt/ZhP58zS4L8KSrWDmTeBkI65Dw0HsyUHuEVlX15mw=
