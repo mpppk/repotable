@@ -6,7 +6,7 @@ require (
 	github.com/blang/semver v3.8.0+incompatible
 	github.com/ghodss/yaml v1.0.0
 	github.com/google/go-github v17.0.0+incompatible
-	github.com/k0kubun/pp v3.0.2+incompatible
+	github.com/k0kubun/pp v3.0.7+incompatible
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/rhysd/go-github-selfupdate v1.2.2
 	github.com/spf13/afero v1.4.1
